@@ -34,7 +34,7 @@ The project begins with a normalized database representing the operational side 
 
     * Source for ETL
 
-   ![Alt text](Sales_OLTP.png)
+   ![Alt text](Sales_oltp.png)
       
 
 
@@ -72,7 +72,7 @@ Key components:
 
   * Slowly Changing Dimensions
 
-         #ETL in action:Using SSIS to extract, transform, and load data into the warehouse.
+    #ETL in action:Using SSIS to extract, transform, and load data into the warehouse.
 
        Transform data from database to data warehouse product_dim
     
