@@ -8,7 +8,6 @@ The goal is to transform raw transactional data into meaningful KPIs that suppor
 
 
 
-
 🛠 Tools & Technologies Used
 | Tool           | Purpose                                              |
 | -------------- | ---------------------------------------------------- |
@@ -16,6 +15,8 @@ The goal is to transform raw transactional data into meaningful KPIs that suppor
 | **SSIS**       | Data extraction, transformation, and loading         |
 | **SSAS**       | Building OLAP cubes for analytical querying          |
 | **SSRS**       | Creating interactive and paginated reports           |
+
+![Alt text](DW_comp.png)
 
 
 
