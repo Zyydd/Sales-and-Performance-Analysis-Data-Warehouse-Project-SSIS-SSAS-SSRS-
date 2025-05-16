@@ -34,6 +34,9 @@ The project begins with a normalized database representing the operational side 
 
     * Source for ETL
 
+   ![Alt text](Sales_OLTP.png)
+      
+
 
 2. Data Warehouse Design
 Data is reorganized using a Star Schema to optimize for reporting and analysis.
@@ -43,13 +46,13 @@ Data is reorganized using a Star Schema to optimize for reporting and analysis.
     * Dimension Tables: Lookup tables for descriptive context
  
   FactSales
-│
+
 ├── DimProduct
 ├── DimCustomer
 ├── DimDate
 ├── DimRegion
  
-
+   ![Alt text](Sales_Olap.png)
 
 
 3. ETL Process with SSIS
@@ -68,6 +71,12 @@ Key components:
   * Lookup & Derived Columns
 
   * Slowly Changing Dimensions
+
+       ![Alt text](Product_ETL.png)
+       ![Alt text](Salesman_ETL.png)
+       ![Alt text](Customer_ETL.png)
+       ![Alt text](Fact_ETL.png)
+       ![Alt text](Fact_ETL@.png)
 
 🧠 Why Are SCDs Important?
 Without SCDs, if a customer moves to a new region or a product changes category, your data warehouse would overwrite the old value, losing the history. SCDs help preserve those changes to maintain data accuracy over time, which is critical for accurate trend analysis, auditing, and business insights.
@@ -99,12 +108,16 @@ Without SCDs, if a customer moves to a new region or a product changes category,
     * Designed cubes with measures and dimensions
     * Enabled slicing/dicing, drill-down, and roll-up
     * Created KPIs for dashboards
+      ![Alt text](SSAS_cube.png)
 
+      
 5. Visualizing with SSRS
     * Finally, SSRS was used to build professional, paginated reports.
     * Interactive dashboards
     * Parameterized reports
     * Export options (Excel, PDF, Word)
+  
+      ![Alt text](SSRS_report.png)
   
 📈 This system allows stakeholders to:
 
