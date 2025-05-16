@@ -72,11 +72,27 @@ Key components:
 
   * Slowly Changing Dimensions
 
+         #ETL in action:Using SSIS to extract, transform, and load data into the warehouse.
+
+       Transform data from database to data warehouse product_dim
+    
        ![Alt text](Product_ETL.png)
+
+    
+       Transform data from database to data warehouse Salesman_dim
+    
        ![Alt text](Salesman_ETL.png)
+
+
+       Transform data from database to data warehouse Customer_dim
        ![Alt text](Customer_ETL.png)
+
+
+       link the fact table with the dimentions with FK
+    
        ![Alt text](Fact_ETL.png)
        ![Alt text](Fact_ETL@.png)
+
 
 🧠 Why Are SCDs Important?
 Without SCDs, if a customer moves to a new region or a product changes category, your data warehouse would overwrite the old value, losing the history. SCDs help preserve those changes to maintain data accuracy over time, which is critical for accurate trend analysis, auditing, and business insights.
