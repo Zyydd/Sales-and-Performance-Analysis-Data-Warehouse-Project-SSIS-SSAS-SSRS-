@@ -16,7 +16,7 @@ The goal is to transform raw transactional data into meaningful KPIs that suppor
 | **SSAS**       | Building OLAP cubes for analytical querying          |
 | **SSRS**       | Creating interactive and paginated reports           |
 
-![Alt text](images\DW_Comp.png)
+![Alt text](images/DW_Comp.png)
 
 
 
