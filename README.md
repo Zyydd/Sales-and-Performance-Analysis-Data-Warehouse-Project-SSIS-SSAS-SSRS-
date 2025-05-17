@@ -34,7 +34,7 @@ The project begins with a normalized database representing the operational side 
 
     * Source for ETL
 
-   ![Alt text](Sales_oltp.png)
+   ![Alt text](images/Sales_oltp.png)
       
 
 
@@ -52,7 +52,7 @@ Data is reorganized using a Star Schema to optimize for reporting and analysis.
 ├── DimDate
 ├── DimRegion
  
-   ![Alt text](Sales_Olap.png)
+   ![Alt text](images/Sales_Olap.png)
 
 
 3. ETL Process with SSIS
@@ -76,22 +76,22 @@ Key components:
 
        Transform data from database to data warehouse product_dim
     
-       ![Alt text](Product_ETL.png)
+       ![Alt text](images/Product_ETL.png)
 
     
        Transform data from database to data warehouse Salesman_dim
     
-       ![Alt text](Salesman_ETL.png)
+       ![Alt text](images/Salesman_ETL.png)
 
 
        Transform data from database to data warehouse Customer_dim
-       ![Alt text](Customer_ETL.png)
+       ![Alt text](images/Customer_ETL.png)
 
 
        link the fact table with the dimentions with FK
     
-       ![Alt text](Fact_ETL.png)
-       ![Alt text](Fact_ETL@.png)
+       ![Alt text](images/Fact_ETL.png)
+       ![Alt text](images/Fact_ETL@.png)
 
 
 🧠 Why Are SCDs Important?
@@ -124,7 +124,7 @@ Without SCDs, if a customer moves to a new region or a product changes category,
     * Designed cubes with measures and dimensions
     * Enabled slicing/dicing, drill-down, and roll-up
     * Created KPIs for dashboards
-      ![Alt text](SSAS_cube.png)
+      ![Alt text](images/SSAS_cube.png)
 
       
 5. Visualizing with SSRS
@@ -133,7 +133,7 @@ Without SCDs, if a customer moves to a new region or a product changes category,
     * Parameterized reports
     * Export options (Excel, PDF, Word)
   
-      ![Alt text](SSRS_report.png)
+      ![Alt text](images/SSRS_report.png)
   
 📈 This system allows stakeholders to:
 
