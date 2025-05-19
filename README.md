@@ -134,7 +134,15 @@ Without SCDs, if a customer moves to a new region or a product changes category,
     * Export options (Excel, PDF, Word)
   
       ![Alt text](images/SSRS_report.png)
+
+
+
+
+
+  Final Dashboard using Tableau 
   
+  ![Alt text](images/Tableau_dashboard.png)
+
 📈 This system allows stakeholders to:
 
   Analyze sales performance across regions and time
