@@ -141,7 +141,7 @@ Without SCDs, if a customer moves to a new region or a product changes category,
 
   Final Dashboard using Tableau 
   
-  ![Alt text](images/Tableau_dashboard.png)
+  ![Alt text](images/Tableau_dashboard.jpg)
 
 📈 This system allows stakeholders to:
 
